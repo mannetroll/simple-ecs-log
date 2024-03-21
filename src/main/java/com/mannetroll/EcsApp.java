@@ -23,7 +23,7 @@ public class EcsApp implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		context = SpringApplication.run(EcsApp.class, args);
-		LOG.info("context: " + context.getBeanDefinitionCount());
+		LOG.info("BeanDefinitionCount: " + context.getBeanDefinitionCount());
 	}
 
 }
