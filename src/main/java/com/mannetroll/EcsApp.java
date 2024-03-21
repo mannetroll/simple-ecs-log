@@ -14,7 +14,7 @@ public class EcsApp implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		LOG.info("################################################## run...");
+		LOG.info("######### ECS ~ ELASTIC COMMON SCHEMA #########");
 	}
 
 	public static void doLog() {
